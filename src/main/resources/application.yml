@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: micro1
+  server:
+    port: 8080
+  data:
+    mongodb:
+      uri: ${MONGO_URL}
+      database: ${MONGO_DB}
+
+cloudinary:
+  cloud_name: ${CLOUDINARY_CLOUDNAME}
+  api_key : ${CLOUDINARY_APIKEY}
+  api_secret : ${CLOUDINARY_APISECRET}
+  secure : ${CLOUDINARY_SECURE}
